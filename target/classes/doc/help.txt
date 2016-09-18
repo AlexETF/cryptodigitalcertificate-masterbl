@@ -1,0 +1,4 @@
+Options:
+    genrsa -out [keyFile] -key [keyLength]
+    req -in [keyFile] -out [requestFile]
+    pkcs12 -in [requestFile] -keys [keyFile] -out [certFile]
